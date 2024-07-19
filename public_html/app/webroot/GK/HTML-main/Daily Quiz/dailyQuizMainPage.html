@@ -1,0 +1,22 @@
+<HTML>
+    <HEAD>
+        <script>
+            function postYourAdd (url) {
+                var iframe = $("#forPostyouradd");
+                // iframe.attr("src", iframe.data("src")); 
+                iframe.attr("src", url);
+            }
+        </script>
+    </HEAD>
+    <BODY>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <button id="postYourAdd" onclick="postYourAdd('/GK_src/studyplan')">SBI CLERK</button>
+        <button id="postYourAdd" onclick="postYourAdd()">IBPS RRB PO/CLERK</button>
+        <button id="postYourAdd" onclick="postYourAdd()">IBPS PO</button>
+        <button id="postYourAdd" onclick="postYourAdd()">IBPS CLERK</button>
+        <button id="postYourAdd" onclick="postYourAdd()">SBI PO</button>
+        <BR>
+        <BR>
+        <iframe id="forPostyouradd" src="/GK_src/studyplan" width=auto height="600" style="background:#ffffff"></iframe>
+    </BODY>
+</HTML>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: rgb(0, 0, 0);
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #0b579e;
+    color: #ffffff;
+    text-align: center;
+}
+ 
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #003898;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+
+/* CSS */
+.button-22 {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-size: 80%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 5px 12px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-22:active {
+  background-color: #006AE8;
+}
+
+.button-22:hover {
+  background-color: #1C84FF;
+}
+
+
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'DodgerBlue')" id="defaultOpen">Plan A</button>
+<button class="tablink" onclick="openPage('News', this, 'DodgerBlue')" >Plan B</button>
+<button class="tablink" onclick="openPage('Contact', this, 'DodgerBlue')">Plan C</button>
+
+<div id="Home" class="tabcontent" style="display: block;padding-top: 10px;">
+    <br><br>
+    <p>RRB Clerk PRELIMS 2022 Effective Schedule 
+      &nbsp;&nbsp;
+      <a href="https://drive.google.com/uc?export=download&id=1NCztZWVYXvxM-UT6maiotIsqq8B-Bttz" target="_blank">
+        <button data-toggle="tooltip" title="" class="button-22" type="submit" data-original-title="Download Now">Download as PDF</button></a>
+    </p>
+    <table class="styled-table">
+      <thead>
+          <tr>
+            
+              <th colspan="3"> RRB Clerk PRELIMS HOURLY BASED TIME TABLE</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>5am – 6.45am</td>
+              <td>Prelims Full Mock test and its analysis</td>
+              <td>RRB Clerk Prelims Full Mock test</td>
+          </tr>
+          <tr>
+              <td>6.45am – 7.30am</td>
+              <td>Refreshment</td>
+              <td></td>
+          </tr>
+          <tr>
+              <td>7.30am – 9am</td>
+              <td>English Newspaper reading Practice (for Mains exam)</td>
+              <td>Learn Minimum 10 and Maximum 20 new vocabulary words</td>
+          </tr>
+          <tr>
+              <td>9am – 10am</td>
+              <td>Breakfast</td>
+              <td></td>
+          </tr>
+          <tr>
+            <td>10am – 11.30am</td>
+            <td>Prelims Full Mock test and its analysis</td>
+            <td>RRB Clerk Prelims Full Mock test</td>
+          </tr>
+          <tr>
+            <td>11.30am – 11.45am</td>
+            <td>Tea Break </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>11.45am – 12:30pm</td>
+            <td><strong>Speed test Practice </strong></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>12:30pm – 1.30pm</td>
+            <td>Reasoning Sectional Mock test and its analysis</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1.30pm – 2.30pm</td>
+            <td>Lunch Break</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2.30pm – 3.30pm</td>
+            <td>Quants Sectional Mock test and its analysis</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3.30pm – 3.45pm</td>
+            <td>Tea Break</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3.45pm – 5pm</td>
+            <td>Practice board Daily Quizzes and its analysis</td>
+            <td>Quants and Reasoning</td>
+          </tr>
+          <tr>
+            <td>5pm – 6pm</td>
+            <td>English sectional Mock test and its analysis</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>6pm – 7pm</td>
+            <td>Break</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>7pm – 9pm</td>
+            <td>Daily Current Affairs</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>9pm – 11pm</td>
+            <td>Own Plan</td>
+            <td>Pending work and Extra commitments etc..,</td>
+          </tr>
+      </tbody>
+  </table>
+
+
+</div>        
+
+
+
+<div id="News" class="tabcontent" style="display: block;padding-top: 10px;">
+  <br><br>
+  <p>RRB Clerk PRELIMS 2022 Effective Schedule 
+    <a href="https://drive.google.com/uc?export=download&id=1NCztZWVYXvxM-UT6maiotIsqq8B-Bttz" target="_blank">
+      <button data-toggle="tooltip" title="" class="button-22" type="submit" data-original-title="Download Now">Download as PDF</button></a>
+  </p>
+  <table class="styled-table">
+    <thead>
+        <tr>
+            <th colspan="3"> SBI CLERK PRELIMS HOURLY BASED TIME TABLE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>5am – 7am</td>
+            <td>English Newspaper reading(for Mains exam)</td>
+            <td>Learn Minimum 10 and Maximum 20 new vocabulary words</td>
+        </tr>
+        <tr>
+            <td>7am – 7.30am</td>
+            <td>Refreshment</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>7.30am – 9am</td>
+            <td>Prelims Full Mock test and its analysis</td>
+            <td>RRB Clerk Prelims Full Mock test</td>
+        </tr>
+        <tr>
+          <td>9am – 10am</td>
+          <td>Breakfast</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10am – 11am</td>
+          <td>Reasoning  Sectional Mock test and its analysis</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11am – 11.45pm</td>
+          <td><strong>Speed test Practice</strong></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11.45pm – 12pm</td>
+          <td>Tea Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>12pm – 1.30pm</td>
+          <td>Prelims Full Mock test and its analysis</td>
+          <td>RRB Clerk Prelims Full Mock test</td>
+        </tr>
+        <tr>
+          <td>1.30pm – 2.30pm</td>
+          <td>Lunch Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2.30pm – 3.30pm</td>
+          <td>Quants Sectional Mock test and its analysis</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3.30pm – 3.45pm</td>
+          <td>Tea Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3.45pm – 5pm</td>
+          <td>Practice board Daily Quizzes and its analysis</td>
+          <td>Quants, English and Reasoning</td>
+        </tr>
+        <tr>
+          <td>5pm – 6pm</td>
+          <td>English sectional Mock test and its analysis</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>6pm – 7pm</td>
+          <td>Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>7pm – 9pm</td>
+          <td>Daily Current Affairs</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9pm – 11pm</td>
+          <td>Own Plan</td>
+          <td>Pending work and Extra commitments etc..,</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<div id="Contact" class="tabcontent" style="display: block;padding-top: 10px;">
+  <br><br>
+  <p>RRB Clerk PRELIMS 2022 Effective Schedule 
+    <a href="https://drive.google.com/uc?export=download&id=1NCztZWVYXvxM-UT6maiotIsqq8B-Bttz" target="_blank">
+      <button data-toggle="tooltip" title="" class="button-22" type="submit" data-original-title="Download Now">Download as PDF</button></a>
+  </p>
+  <table class="styled-table">
+    <thead>
+        <tr>
+          
+            <th colspan="3"> SBI CLERK PRELIMS HOURLY BASED TIME TABLE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>5am – 7am</td>
+            <td>Daily Current Affairs</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>7am – 7.30am</td>
+            <td>Refreshment</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>7.30am – 9am</td>
+            <td>English Newspaper reading</td>
+            <td>Learn Minimum 10 and Maximum 20 new vocabulary words</td>
+        </tr>
+        <tr>
+          <td>9am – 10am</td>
+          <td>Breakfast</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10am – 11.30am</td>
+          <td>Prelims Full Mock test and its analysis</td>
+          <td>RRB Clerk Prelims Full Mock test</td>
+        </tr>
+        <tr>
+          <td>11.30am – 11.45pm</td>
+          <td>Tea Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11.45pm – 1pm</td>
+          <td>Reasoning  Sectional Mock test and its analysis</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1pm – 2pm</td>
+          <td>Lunch Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2pm – 2.45pm</td>
+          <td><strong> Speed test Practice </strong></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2.45pm – 3.45pm</td>
+          <td>Quants Sectional Mock test and its analysis</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3.45pm – 4pm</td>
+          <td>Tea Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4pm – 6pm</td>
+          <td>Practice board Daily Quizzes and its analysis</td>
+          <td>Quants, English and Reasoning</td>
+        </tr>
+        <tr>
+          <td>6pm – 7pm</td>
+          <td>Break</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>7pm – 8.30pm</td>
+          <td>Prelims Full Mock test and its analysis</td>
+          <td>RRB Clerk Prelims Full Mock test</td>
+        </tr>
+        <tr>
+          <td>8.30pm – 9pm</td>
+          <td>English sectional Mock test and its analysis/td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9pm – 11pm</td>
+          <td>Own Plan</td>
+          <td>Pending work and Extra commitments etc..,</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<div id="About" class="tabcontent" style="display: block;padding-top: 10px;">
+    <h3>July 2022 Coming Soon!!</h3>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 

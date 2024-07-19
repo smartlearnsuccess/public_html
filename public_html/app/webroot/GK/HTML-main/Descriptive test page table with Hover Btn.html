@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+
+<style>
+
+.desc_test_tbl
+{
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 0 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(0, 150, 255, 0.1);
+}
+
+.desc_test_head_contnr
+{
+	display: flex;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.desc_test_heading
+{	border-radius: 5px;
+    display: inline-block;
+    clear: both;
+    font-weight: 600;
+    color: #333;
+    text-align: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    text-overflow: ellipsis;
+    line-height: 40px;
+    margin: 0 10px 0 0;
+    font-size: 16px;
+}
+
+.desc_test_brow_contnr
+{    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.desc_test_brow_fields
+{
+	display: flex;
+    align-items: middle;
+    line-height: 26px;
+    margin: 0 20px 0 0;
+    float: left;
+  	width: 100%;
+}
+.desc_test_brow_infoHead
+{
+	font-size: 12px;
+    font-weight: 600;
+    color: #aaa;
+}
+.desc_test_brow_infodetails
+{
+	color: #333;
+    font-size: 14px;
+    padding: 0 0 0 5px;
+    font-weight: 600;
+}
+.desc_test_brow_infodetailsBtn{
+	text-align:center;
+    
+}
+
+
+
+.desc_test_btn-1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1ec1f4;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 2px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.desc_test_btn-1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.desc_test_btn-1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.desc_test_btn-1:hover span {
+  padding-right: 25px;
+}
+
+.desc_test_btn-1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media screen and (max-width:600px) {
+button.desc_test_btn-1 {
+    width: 120px;
+}
+}
+
+</style>
+</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+
+<BR><BR><BR>
+
+<div class="desc_test_tbl">
+	<div class="desc_test_head_contnr">
+  		<div class="desc_test_heading"> Descriptive Test Day 2 </div>
+  	</div>
+    <div class="desc_test_brow_contnr"> 
+    	<div class="desc_test_brow_fields"> 
+        	<span class="desc_test_brow_infoHead">Language: </span> 
+        	<span class="desc_test_brow_infodetails">English </span> 
+        </div> 
+    	<div class="desc_test_brow_fields"> 
+        	<span class="desc_test_brow_infoHead">Questions: </span> 
+        	<span class="desc_test_brow_infodetails">2 </span> 
+        </div>     	
+        <div class="desc_test_brow_fields"> 
+        	<span class="desc_test_brow_infoHead">Time: </span> 
+        	<span class="desc_test_brow_infodetails">30 min </span> 
+        </div> 
+        <div class="desc_test_brow_fields"> </div>
+        <div class="desc_test_brow_fields"> <button class="desc_test_btn-1"><span>Take Test </span> </button></div>
+    	</div>
+</div>
+
+
+<br><br>
+<div class="desc_test_tbl">
+	<div class="desc_test_head_contnr">
+  		<div class="desc_test_heading"> Descriptive Test Day 1 </div>
+  	</div>
+    <div class="w3-row">
+    <div class="desc_test_brow_contnr"> 
+    	<div class="w3-container w3-twothird" style="padding:0 5px 0 0; align:center"> 
+        	<div class="w3-third"> 
+                <span class="desc_test_brow_infoHead">Language: </span> 
+        		<span class="desc_test_brow_infodetails">English </span> 
+            </div>
+        	<div class="w3-third"> 
+                <span class="desc_test_brow_infoHead">Questions: </span> 
+        		<span class="desc_test_brow_infodetails">2 </span> 
+        	</div>
+        	<div class="w3-third"> 
+                <span class="desc_test_brow_infoHead">Time: </span> 
+        		<span class="desc_test_brow_infodetails">3 mins </span> 
+        	</div>
+        </div> 
+        	<div class="w3-container w3-third desc_test_brow_infodetailsBtn">
+        		<a> <button class="desc_test_btn-1" style="vertical-align:middle"><span>Take Test</span> </button></a>
+         	</div>
+    	</div>
+       </div>
+</div>
+
+
+    <!-- Day 1 -->
+    <br>
+    <div class="desc_test_tbl">
+        <div class="desc_test_head_contnr">
+              <div class="desc_test_heading"> Daily Hindu Vocabulary Words - 23.04.2022 </div>
+                <div class="w3-container w3-third desc_test_brow_infodetailsBtn">
+                    <a href='https://drive.google.com/uc?export=download&id=1OkYGgjyMqkGKnf6dHYHFXXQp3efORzq-' target='_blank' class="desc_test_btn-1" style="vertical-align:middle"><span>View PDF</span> </a>
+                </div>
+              </div> 
+        </div>          
+    </div>
+
+
+</body>
+</html>
+
+

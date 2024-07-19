@@ -1,0 +1,37 @@
+<strong>
+
+    <div style="border-bottom: 2px solid #1c85f5; padding:10px">
+        <div style="display:inline-block">
+            Test 1 - Profit and Loss Quiz
+        </div>
+        <div style="display:inline-block; float: right; padding-right: 30px; vertical-align: middle;">
+            <button onclick="javascript:showpop_up('/crm/Exams/guidelines/107')" data-toggle="tooltip" title="" class="button-29" type="submit" data-original-title="Attempt Now">Attend Quiz Now<span class="fa fa-sign-in" style="float: right"></span></button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+    
+    <div style="border-bottom: 2px solid #1c85f5; padding:10px">
+        <div style="display:inline-block">
+            Test 2 - Profit and Loss Quiz
+        </div>
+        <div style="display:inline-block; float: right; padding-right: 30px; vertical-align: middle;">
+            <button onclick="javascript:showpop_up('/crm/Exams/guidelines/108')" data-toggle="tooltip" title="" class="button-29" type="submit" data-original-title="Attempt Now">Attend Quiz Now<span class="fa fa-sign-in" style="float: right"></span></button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+
+
+    <div style="border-bottom: 2px solid #1c85f5; padding:10px">
+        <div style="display:inline-block">
+            Test 3 - Profit and Loss Quiz
+        </div>
+        <div style="display:inline-block; float: right; padding-right: 80px; vertical-align: middle;">
+            Coming Soon!  
+            
+        </div>
+    </div>
+
+
+
+
+</strong>

@@ -1,0 +1,13 @@
+
+
+
+To get active exams IDs.
+SELECT * FROM `exams` WHERE status = 'Active' ORDER BY `exams`.`id` ASC
+
+
+
+Dear Cardholder,
+Thank you for writing to us.
+Your form has been submitted successfully with Interaction Id 1-160827215722. We will get back to you by 13-May-2022.
+Warm Regards,
+SBI Card

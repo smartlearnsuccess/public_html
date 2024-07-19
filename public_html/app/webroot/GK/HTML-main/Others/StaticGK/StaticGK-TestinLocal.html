@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+
+<style>
+
+.desc_test_tbl
+{
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 0 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(0, 150, 255, 0.1);
+}
+
+.desc_test_head_contnr
+{
+	display: flex;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.desc_test_heading
+{	border-radius: 5px;
+    display: inline-block;
+    clear: both;
+    font-weight: 600;
+    color: #333;
+    text-align: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    text-overflow: ellipsis;
+    line-height: 40px;
+    margin: 0 10px 0 0;
+    font-size: 16px;
+}
+
+.desc_test_brow_contnr
+{    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.desc_test_brow_fields
+{
+	display: flex;
+    align-items: middle;
+    line-height: 26px;
+    margin: 0 20px 0 0;
+    float: left;
+  	width: 100%;
+}
+.desc_test_brow_infoHead
+{
+	font-size: 12px;
+    font-weight: 600;
+    color: #aaa;
+}
+.desc_test_brow_infodetails
+{
+	color: #333;
+    font-size: 14px;
+    padding: 0 0 0 5px;
+    font-weight: 600;
+}
+.desc_test_brow_infodetailsBtn{
+	text-align:center;
+    
+}
+
+
+
+.desc_test_btn-1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #1ec1f4;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 2px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.desc_test_btn-1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.desc_test_btn-1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.desc_test_btn-1:hover span {
+  padding-right: 25px;
+}
+
+.desc_test_btn-1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media screen and (max-width:600px) {
+button.desc_test_btn-1 {
+    width: 120px;
+}
+}
+
+</style>
+</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+
+<BR><BR>
+
+<div class="desc_test_tbl">
+	<div class="desc_test_head_contnr">
+  		<div class="desc_test_heading"> Country Capital and Currency </div>
+           <button class="desc_test_btn-1" style="align-items: flex-start;margin-right: 15%;"> <span>
+           <a href='https://drive.google.com/uc?export=download&id=1EQg4kQLHywUVeYSnzazobIfpl2-GWqLw' target='_blank'>Download PDF </a> </span>
+           </button>
+  	</div>
+</div>
+
+
+
+<br>
+
+<div class="desc_test_tbl">
+	<div class="desc_test_head_contnr">
+  		<div class="desc_test_heading"> List of Cabinet Ministers and their Portfolio </div>
+           <button class="desc_test_btn-1" style="align-items: flex-start;margin-right: 15%;"> <span>
+           <a href='https://drive.google.com/uc?export=download&id=1w15AVmjezE6SY5sXxYq_OSOwdJPMgUPF' target='_blank'>Download PDF </a> </span>
+           </button>
+  	</div>
+</div>
+
+<br>
+
+<div class="desc_test_tbl">
+	<div class="desc_test_head_contnr">
+  		<div class="desc_test_heading"> List of chief Ministers and Governors </div>
+           <button class="desc_test_btn-1" style="align-items: flex-start;margin-right: 15%;"> <span>
+           <a href='https://drive.google.com/uc?export=download&id=14KoSnB9sczXcogMw341wkZx4l3A_Vp22' target='_blank'>Download PDF </a> </span>
+           </button>
+  	</div>
+</div>
+
+
+</body>
+</html>
+
+
